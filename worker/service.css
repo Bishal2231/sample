@@ -1,0 +1,328 @@
+*{
+    padding:0;
+    margin:0;
+}
+nav li{
+
+    background-color: black;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    list-style:none;
+
+}
+html{
+    background-color: bisque;
+}
+.main-service {
+    margin-top:200px;
+    margin-left:200px;
+    text-wrap:nowrap;
+}
+main{
+    height:50Vh;
+    width:50vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+}
+.main-service{
+    position:absolute;
+
+}
+/* */
+.main-service button{
+padding:10px;
+color: #202020;
+background-color: #F6921D;
+border:none;
+border-radius:20px;
+position:absolute;
+left:50;
+
+}
+
+.main-service button:hover{
+  box-shadow:2px 2px 1px #202020;
+}
+#form,#ins{
+    text-wrap:nowrap;
+    color:#204188;
+    background-color: #F6921D;
+    border-radius:10px;
+    margin-top:5px;
+}
+
+.box{
+   
+   
+    width:40vw;
+    display: flex;
+    gap :20px;
+    position:absolute;
+
+    
+}
+.lab,.worker{
+    border-radius: 10px;
+    width:50%;
+    background-color: aliceblue;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+  
+  
+    
+}
+
+
+
+.fill{
+    margin-top:40px;
+}
+.box img{
+
+    height: 30vh;
+    width:100%;
+    border-radius: 10px;
+
+}
+ul{
+    margin-top:20px;
+}
+ul li{
+    list-style: none;
+    color: #204188;
+    font-size:20px;
+}
+.od button{
+    color: #204188;
+    background-color: #F6921D;
+    border:none;
+    padding:17px;
+    border-radius:10px;
+    margin-top:20px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.od button:hover{
+    box-shadow:2px 2px 1px;
+}
+.poplab{
+    padding:20px;
+    background-color: antiquewhite;
+ text-wrap: nowrap;
+ position: absolute;
+ 
+}
+
+.poplab2{
+    padding:20px;
+    background-color: antiquewhite;
+ text-wrap: nowrap;
+ position: absolute;
+ left:320px;
+ 
+}
+
+.poplab li,.poplab2 li{
+    list-style:none;
+    margin:30px;
+    font-size:20px;
+    font-family:sans-serif;
+    text-wrap: nowrap;
+
+    
+}
+
+.box{
+    position: absolute;
+    right:30;
+}
+
+.poplab button,.poplab2 button{
+    color:#204188;
+    background-color: #F6921D;
+    border:none;
+    padding:20px;
+    border-radius:10px;
+}
+.info h2{
+    color:#204188;
+    font-family: serif;
+}
+.fill{
+    display: none;
+}
+
+.cross1{
+    position: absolute;
+    top:0;
+    right:0;
+    color:#204188;
+    border-radius:50%;
+    
+    background-color: #F6921D;
+}
+.cross1{
+
+}
+.fill{
+    position: absolute;
+}
+.pop22{
+   height:100px;
+   width:50rem;
+   padding:20px;
+   margin-top:20px;
+
+}
+.pop22 input{
+    margin-top: 10px;;
+}
+#formser textarea{
+    border-radius:10px;
+    height:200px;
+    width:300px;
+    font-family:sans-serif;
+    font-size:30px
+     
+}
+#formser input[type="submit"]{
+    padding:15px;
+    width:70%;
+    color:#204188;
+    background-color: #F6921D;
+    border:none;
+    border-radius:8px;
+
+}
+
+#formser input[type="submit"]:hover{
+    box-shadow:2px 2px 2px  #204188;
+}
+#formser{
+ background-color: aliceblue;
+    position:absolute;
+  left:70%;
+  height:300px;
+    width:300px;
+    border-radius: 10px;;
+  
+   
+}
+.worker .info  li{
+    cursor:pointer;
+
+}
+.pop22{
+    display: none;
+    z-index:999;
+    background-color: aliceblue;
+    border-radius:10px;
+    position: relative;
+}
+.cross2{
+    position: absolute;
+    top:0;
+    right:-15%;
+    color:#204188;
+    background-color: #F6921D;
+    border-radius: 50%;
+}
+/* .pricecons{
+border-radius:10px;
+position:absolute;
+left:100%;
+top:20%;
+z-index:999;
+background-color: aliceblue;
+display: none;
+
+
+} */
+/* .pricecons h2{
+    color:#204188;
+    font-size:36px;
+
+    text-wrap:nowrap;
+    margin-right:60px;
+    margin-left:30px;
+    margin-top:20px;
+    margin-bottom:20px;
+
+
+} */
+/* .pricecons button{
+    margin-top:20px;
+    color:#204188;
+    background-color: #F6921D;
+    border:none;
+    padding:20px;
+    font-size:20px;
+    border-radius:10px;
+    margin-bottom:10px;
+    margin-right:60px;
+    margin-left:30px;
+    margin-top:20px;
+    margin-bottom:20px;
+
+} */
+/* .pricecons button:hover{
+    
+} */
+
+
+.ce{
+   
+}
+.ce button{
+    
+  
+        color: #204188;
+        background-color: #F6921D;
+        border: none;
+        padding: 17px;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-family: sans-serif;
+        margin-bottom: 20px;
+}
+.info ul li input[type="radio"]{
+
+height:15px;
+width:15px;
+margin-bottom:2px;
+}
+    
+.poplab,.poplab2{
+    
+   border-radius:10px;
+   /* display: none; */
+   position:relative;
+}
+
+
+.poplab button:hover,.poplab2 button:hover{
+    box-shadow:2px 1px 1px ;
+}
+.poplab{
+    display: none;
+}
+.poplab2{
+    display: none;
+}
+.close2,.close3{
+    position:absolute;
+    top:0;
+    right:0;
+}
+.close2 i,.close3 i{
+    color:#204188;
+    background-color:#F6921D;
+    border-radius:50%;
+}

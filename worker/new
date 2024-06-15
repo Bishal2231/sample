@@ -1,0 +1,4 @@
+ var done=document.querySelector("#done");
+ done.addEventListener("click",()=>{
+done.style.display="
+ })
